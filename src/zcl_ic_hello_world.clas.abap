@@ -19,6 +19,8 @@ CLASS zcl_ic_hello_world IMPLEMENTATION.
 
     out->write( |Test GIT integration| ).
 
+    out->write( |Test GIT integration 2| ).
+
   ENDMETHOD.
 
 ENDCLASS.
