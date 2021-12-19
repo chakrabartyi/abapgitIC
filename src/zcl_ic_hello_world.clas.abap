@@ -17,6 +17,8 @@ CLASS zcl_ic_hello_world IMPLEMENTATION.
 
     out->write( |Hello world! ({ cl_abap_context_info=>get_user_technical_name(  ) })| ).
 
+    out->write( |Test GIT integration| ).
+
   ENDMETHOD.
 
 ENDCLASS.
